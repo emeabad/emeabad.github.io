@@ -220,7 +220,7 @@
          <div class="shane_tm_copyright">
             <div class="container">
                <div class="inner">
-                  <p>© 2021 </p>
+                  <p id="anio"> </p>
                </div>
             </div>
          </div>
@@ -267,5 +267,8 @@
    </div>
 </body>
 <!-- Mirrored from marketifythemes.com/html/shane/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 May 2021 18:16:22 GMT -->
-
+<script>
+   var fecha = new Date();
+   document.getElementById("anio").innerHTML = '©' + fecha.getFullYear();
+</script>
 </html>
